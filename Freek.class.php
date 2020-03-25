@@ -18,6 +18,11 @@ class Freek
     {
         $dier->slaap();
     }
+
+    public function praten(Dier $dier)
+    {
+        $dier->praat();
+    }
 }
 
 $vis = new Vis();
@@ -28,3 +33,6 @@ $freek->geefEten($vis);  // Print 'lekker!'
 $freek->geefEten($vogel);  // Print 'lekker!'
 $freek->brengNaarBed($vis);  // Print 'ZZZZzzzzz....'
 $freek->brengNaarBed($vis);  // Print 'ZZZZzzzzz....'
+
+$freek->praten($vis);
+$freek->praten($vogel);

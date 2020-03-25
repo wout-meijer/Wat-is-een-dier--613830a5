@@ -1,6 +1,6 @@
 <?php
 
-class Dier
+abstract class Dier
 {
     public function eet()
     {
@@ -11,4 +11,6 @@ class Dier
     {
         Print 'ZZZZzzzzz....' . PHP_EOL;
     }
+
+    abstract public function praat();
 }
